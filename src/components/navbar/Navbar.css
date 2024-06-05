@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  height: 10vh;
+  width: 100% auto;
+  display: flex;
+  align-items: center;
+  background-color: #fcf6f5;
+}
+
+.navbarComponent {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navLogo > p {
+  margin-left: 20px;
+  width: 100%;
+  display: flex;
+  letter-spacing: 10px;
+  padding: 5px;
+  color: #990011;
+  font-family: "Orbitron";
+  font-size: 25px;
+  cursor: none;
+  flex: 1;
+}
+.user {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.user > h4 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin-right: 10px;
+}
+.user > button {
+  border-radius: 20px;
+  background-color: transparent;
+  color: red;
+}

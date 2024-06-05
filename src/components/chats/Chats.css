@@ -1,0 +1,6 @@
+.chats {
+  height: calc(90vh - 61px);
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,8 @@
+.messeges {
+  background-color: #04293a;
+  height: calc(90vh - 120px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,40 @@
+.chat {
+  flex: 2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.56);
+}
+.chatInfo {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #041c32;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.336);
+}
+.chatInfocont {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.chatInfocont > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px dotted red;
+}
+.chatInfocont > h5 {
+  color: #e4ea8c;
+  text-shadow: 0px 0px 5px red, 0px 0px 10px rgb(255, 255, 255);
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.chatIcons > button :hover {
+  color: whitesmoke;
+  opacity: 0.7;
+}
+.chatIcons > button {
+  color: #fb6542;
+}
